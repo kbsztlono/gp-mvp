@@ -477,7 +477,7 @@
 
 /* ─── KONTAKT ── */
 .contact-section {
-  padding: 100px 40px;
+  padding: 40px 40px 100px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -485,9 +485,14 @@
   gap: 28px;
 }
 
+.contact-path {
+  margin-bottom: 40px;
+  transform: rotate(180deg);
+}
+
 .contact-section h2 {
   font-family: var(--font-serif);
-  font-size: 54px;
+  font-size: 60px;
   font-weight: 400;
   line-height: 0.95;
   letter-spacing: -1.8px;
@@ -497,15 +502,23 @@
 
 .contact-section p {
   font-family: var(--font-sans);
-  font-size: 17px;
-  line-height: 1.6;
-  color: rgba(30, 36, 31, 0.65);
+  font-size: 22px;
+  line-height: 1.4;
+  color: var(--text);
   max-width: 500px;
 }
 
 /* ─── FOOTER ── */
 .footer {
   padding: 36px 40px;
+}
+
+.footer::before {
+  content: '';
+  display: block;
+  height: 1px;
+  background: rgba(30, 36, 31, 0.15);
+  margin: 0 0 36px;
 }
 
 .footer-inner {
@@ -519,35 +532,17 @@
 }
 
 .footer-logo {
-  font-family: var(--font-sans);
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--text);
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+  /*font-weight: 700;*/
+  color: var(--orange);
   letter-spacing: -0.3px;
 }
 
-.footer-nav {
-  display: flex;
-  gap: 24px;
-}
-
-.footer-nav a {
-  font-family: var(--font-sans);
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--text);
-  letter-spacing: -0.35px;
-  transition: opacity 0.2s;
-}
-
-.footer-nav a:hover {
-  opacity: 0.55;
-}
-
 .footer-copy {
-  font-family: var(--font-sans);
-  font-size: 13px;
-  color: rgba(30, 36, 31, 0.5);
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+  color: var(--orange);
 }
 
 /* ─── RESPONSIVE ── */

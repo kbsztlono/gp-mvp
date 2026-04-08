@@ -26,7 +26,7 @@ function PathSVG1() {
 function PathSVG2() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 89.5679 399.408"
-      width="135" height="600" overflow="visible" aria-hidden="true">
+      width="300" height="600" overflow="visible" aria-hidden="true">
       <g opacity="0.6">
         <path d="M44.6067 369.106C44.1568 366.247 46.703 363.884 49.5472 364.522C51.1368 364.874 52.3808 366.201 52.6338 367.799C53.0837 370.658 50.5375 373.021 47.6934 372.384C46.1037 372.032 44.8598 370.705 44.6067 369.106Z"
           fill="rgba(235,89,42,0.8)"/>
@@ -237,12 +237,12 @@ export default function App() {
             <p>
               Łączymy otoczenie Twojej firmy z kojącą mocą ekosystemów.
               W świecie pełnym bodźców dostarczamy narzędzi do samoregulacji
-              i wytchnienia, odkrywając piękno natury 30 minut od Twojego domu.
+              i wytchnienia, odkrywając piękno natury 30 minut od&nbsp;Twojego domu.
             </p>
             <p>
               Na wszechobecny greenwashing odpowiadamy realnymi działaniami,
-              edukując o otaczających nas siedliskach. Głęboko wierzymy, że
-              przystępna edukacja przyrodnicza bez ideologii i doznawanie piękna
+              edukując o&nbsp;otaczających nas siedliskach. Głęboko wierzymy,
+              że&nbsp;przystępna edukacja przyrodnicza bez ideologii i doznawanie piękna
               natury przysłużą się jej, prowadząc do podniesienia poziomu jej&nbsp;ochrony.
             </p>
           </div>
@@ -254,22 +254,19 @@ export default function App() {
 
       {/* ── KONTAKT ── */}
       <section ref={refContact} className="contact-section reveal" id="kontakt">
+        <div className="contact-path">
+          <PathSVG1 />
+        </div>
         <h2>Zacznijmy od rozmowy</h2>
-        <p>Napisz do nas lub zadzwoń. Chętnie dowiemy się, jak możemy połączyć Twój biznes z naturą, z korzyścią dla wszystkich.</p>
+        <p>Napisz do nas lub zadzwoń. Chętnie dowiemy się, jak możemy połączyć Twój biznes z naturą, z&nbsp;korzyścią dla&nbsp;wszystkich.</p>
         <a href="mailto:kontakt@grupaprzyrodnicza.pl" className="btn-primary">Porozmawiaj ↗</a>
       </section>
 
       {/* ── FOOTER ── */}
       <footer className="footer">
         <div className="footer-inner">
-          <div className="footer-logo">Grupa Przyrodnicza</div>
-          <nav className="footer-nav">
-            <a href="#misja">Misja</a>
-            <a href="#oferta">Oferta</a>
-            <a href="#wspolpraca">Współpraca</a>
-            <a href="#kontakt">Kontakt</a>
-          </nav>
-          <div className="footer-copy">© 2026 Grupa Przyrodnicza. Wszelkie prawa zastrzeżone.</div>
+          <div className="footer-logo">© 2026 Grupa Przyrodnicza</div>
+          <div className="footer-copy">Wszelkie prawa zastrzeżone</div>
         </div>
       </footer>
     </>
