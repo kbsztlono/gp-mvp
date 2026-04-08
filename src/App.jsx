@@ -10,8 +10,8 @@ const IMG3 = `${FIGMA}/7e3b9d0e9ee8bdc03839126663ecb818de613f4a.png`
 function PathSVG1() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 179 427"
-      width="179" height="427" overflow="visible" aria-hidden="true">
-      <g opacity="0.5">
+      width="200" height="700" overflow="visible" aria-hidden="true">
+      <g opacity="0.6">
         <path d="M49.1442 422.914C49.9379 422.119 50.7869 421.22 51.6851 420.234"
           stroke="rgba(235,89,42,0.8)" strokeMiterlimit="10" strokeWidth="2"/>
         <path d="M56.5208 414.601C65.2816 403.916 75.7897 388.818 79.3703 380.752C95.9076 343.507 52.1281 314.741 28.1343 294.276C6.8167 276.091 -0.479876 254.196 0.744423 229.664C2.04255 203.745 29.0817 175.731 84.2613 158.298C103.666 152.166 120.061 148.044 137.195 140.963C154.834 133.673 179.898 122.519 178.311 99.5709C176.779 77.3988 155.16 61.6294 134.328 45.4287C118.732 33.3012 100.017 21.9687 85.4733 8.12195"
@@ -76,7 +76,7 @@ export default function App() {
       <section className="hero">
         <div className="hero-top">
           <div className="logo">Grupa Przyrodnicza</div>
-          <a href="#kontakt" className="btn-primary">Porozmawiaj ↗</a>
+          <a href="#kontakt" className="btn-primary">Porozmawiaj <span className="btn-arrow">↗</span></a>
         </div>
         <div className="hero-text">
           <h1 className="hero-title">Połącz swój biznes z naturą</h1>
@@ -101,11 +101,11 @@ export default function App() {
             <PathSVG2 />
           </div>
         </div>
-        <div className="green-label">Zamieniamy screeny na leśne gęstwiny</div>
       </section>
 
       {/* ── CO ROBIMY ── */}
       <section ref={refWhat} className="what-we-do reveal" id="oferta">
+        <div className="green-label">Zamieniamy screeny na leśne gęstwiny</div>
         <div className="what-we-do-content">
           <h2>Co robimy?</h2>
           <div className="services-list">
@@ -225,7 +225,7 @@ export default function App() {
           </div>
         </div>
         <div className="process-cta">
-          <a href="#kontakt" className="btn-primary">Porozmawiaj ↗ ↗</a>
+          <a href="#kontakt" className="btn-primary">Porozmawiaj <span className="btn-arrow">↗</span></a>
         </div>
       </section>
 
@@ -251,16 +251,16 @@ export default function App() {
             <img src={IMG3} alt="Misja Grupy Przyrodniczej" />
           </div>
         </div>
-      </section>
-
-      {/* ── KONTAKT ── */}
-      <section ref={refContact} className="contact-section reveal" id="kontakt">
         <div className="contact-path">
           <PathSVG1 />
         </div>
-        <h2>Zacznijmy od rozmowy</h2>
+      </section>
+
+      {/* ── KONTAKT ── */}
+      <section ref={refContact} className="contact-section reveal">
+        <h2 id="kontakt">Zacznijmy od rozmowy</h2>
         <p>Napisz do nas lub zadzwoń. Chętnie dowiemy się, jak możemy połączyć Twój biznes z naturą, z&nbsp;korzyścią dla&nbsp;wszystkich.</p>
-        <a href="mailto:kontakt@grupaprzyrodnicza.pl" className="btn-primary">Porozmawiaj ↗</a>
+        <a href="mailto:kontakt@grupaprzyrodnicza.pl" className="btn-primary">Porozmawiaj <span className="btn-arrow">↗</span></a>
       </section>
 
       {/* ── FOOTER ── */}

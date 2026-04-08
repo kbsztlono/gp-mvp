@@ -4,8 +4,8 @@
 /* ─── SCROLL REVEAL ──────────────────────────────────────── */
 .reveal {
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 .reveal.revealed {
@@ -34,11 +34,11 @@
 
 .logo {
   font-family: var(--font-sans);
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 500;
   color: var(--text);
   white-space: nowrap;
-  letter-spacing: -0.3px;
+  letter-spacing: -1.5px;
   margin-right: auto;
 }
 
@@ -73,7 +73,7 @@
   padding: 0 28px;
   border-radius: 999px;
   letter-spacing: -0.35px;
-  transition: opacity 0.2s;
+  transition: background-color 0.2s ease;
   white-space: nowrap;
   cursor: pointer;
   border: none;
@@ -81,7 +81,16 @@
 }
 
 .btn-primary:hover {
-  opacity: 0.82;
+  background-color: rgba(72, 92, 17, 0.6);
+}
+
+.btn-arrow {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.btn-primary:hover .btn-arrow {
+  transform: translate(3px, -3px);
 }
 
 .menu-toggle {
@@ -97,7 +106,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 40px 0;
+  padding: 20px 40px 0;
   width: 100%;
 }
 
@@ -116,7 +125,7 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding-top: 120px;
+  padding-top: 140px;
 }
 
 .hero-title {
@@ -139,7 +148,7 @@
 }
 
 .hero-path {
-  margin-top: 40px;
+  margin-top: 80px;
   display: flex;
   justify-content: center;
 }
@@ -198,10 +207,10 @@
 
 /* ─── CO ROBIMY ── */
 .what-we-do {
-  padding: 100px 40px 0;
+  padding: 0 40px 0;
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 8px;
 }
 
 .what-we-do-content h2 {
@@ -496,7 +505,8 @@
 }
 
 .contact-path {
-  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
   transform: rotate(180deg);
 }
 
@@ -544,7 +554,6 @@
 .footer-logo {
   font-family: 'Roboto Mono', monospace;
   font-size: 12px;
-  /*font-weight: 700;*/
   color: var(--orange);
   letter-spacing: -0.3px;
 }
