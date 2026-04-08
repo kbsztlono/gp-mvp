@@ -182,6 +182,7 @@ export default function App() {
       {/* ── VALUE PROPS ── */}
       <section ref={refValues} className="values-section reveal">
         <span className="green-label">Nasze działania w praktyce</span>
+        <h2 className="values-heading">Value Propositions</h2>
         <div className="values-grid">
           <div className="value-card">
             <h3>Employer Branding i Wellbeing</h3>
