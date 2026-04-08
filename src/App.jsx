@@ -26,14 +26,14 @@ function PathSVG1() {
 function PathSVG2() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 89.5679 399.408"
-      width="90" height="399" overflow="visible" aria-hidden="true">
+      width="135" height="600" overflow="visible" aria-hidden="true">
       <g opacity="0.6">
         <path d="M44.6067 369.106C44.1568 366.247 46.703 363.884 49.5472 364.522C51.1368 364.874 52.3808 366.201 52.6338 367.799C53.0837 370.658 50.5375 373.021 47.6934 372.384C46.1037 372.032 44.8598 370.705 44.6067 369.106Z"
           fill="rgba(235,89,42,0.8)"/>
         <path d="M36.4864 25.6475C36.0365 22.788 38.5827 20.4252 41.4268 21.0629C43.0165 21.4149 44.2604 22.7418 44.5135 24.34C44.9634 27.1995 42.4172 29.5623 39.5731 28.9246C37.9834 28.5727 36.7394 27.2457 36.4864 25.6475Z"
           fill="rgba(235,89,42,0.8)"/>
         <path d="M34.5458 34.4503C6.87348 75.4418 6.13395 105.45 14.9147 124.968C23.6894 144.485 41.7751 160.278 41.2651 181.639C40.7115 204.662 22.6757 222.772 20.4625 245.696C19.6519 254.104 20.0238 263.661 26.1974 269.478C28.4575 271.607 31.2943 273.012 34.1293 274.283C42.0121 277.813 50.2653 280.545 57.8588 284.65C65.4524 288.748 72.5256 294.456 76.2286 302.212C80.6766 311.534 79.6281 322.822 75.1428 332.117C70.6573 341.419 55.2651 363.754 46.9397 369.918"
-          stroke="rgba(235,89,42,0.8)" strokeDasharray="12 12" strokeMiterlimit="10" strokeWidth="2"/>
+          stroke="rgba(235,89,42,0.8)" strokeDasharray="12 12" strokeMiterlimit="10" strokeWidth="1.5"/>
       </g>
     </svg>
   )
@@ -76,7 +76,7 @@ export default function App() {
       <section className="hero">
         <div className="hero-top">
           <div className="logo">Grupa Przyrodnicza</div>
-          <a href="#kontakt" className="btn-primary">Porozmawiaj</a>
+          <a href="#kontakt" className="btn-primary">Porozmawiaj ↗</a>
         </div>
         <div className="hero-text">
           <h1 className="hero-title">Połącz swój biznes z naturą</h1>
@@ -123,7 +123,7 @@ export default function App() {
           </div>
         </div>
         <div className="what-we-do-image">
-          <img src={IMG2} alt="Przyroda" />
+          <img src={IMG1} alt="Przyroda" />
         </div>
       </section>
 
@@ -171,14 +171,17 @@ export default function App() {
           </div>
           <div className="result-item">
             <h3>Webinary</h3>
-            <p>Razem ruszamy w naturę. Ty odpoczywasz, my dbamy o resztę.</p>
+            <p>Webinary edukacyjne i wsparcie komunikacji wewnętrznej</p>
           </div>
+        </div>
+        <div className="results-image">
+          <img src={IMG2} alt="Przyroda" />
         </div>
       </section>
 
       {/* ── VALUE PROPS ── */}
       <section ref={refValues} className="values-section reveal">
-        <span className="green-label">Value Propositions</span>
+        <span className="green-label">Nasze działania w praktyce</span>
         <div className="values-grid">
           <div className="value-card">
             <h3>Employer Branding i Wellbeing</h3>
@@ -207,21 +210,21 @@ export default function App() {
           <div className="process-step">
             <span className="step-number">01</span>
             <h3>Rozmowa</h3>
-            <p>Analizujemy Twoje potrzeby, cele biznesowe i możliwości.</p>
+            <p>Analizujemy Twoje potrzeby, cele biznesowe i&nbsp;możliwości.</p>
           </div>
           <div className="process-step">
             <span className="step-number">02</span>
             <h3>Projekt</h3>
-            <p>Przygotowujemy spersonalizowany program wydarzeń.</p>
+            <p>Przygotowujemy spersonalizowany program&nbsp;wydarzeń.</p>
           </div>
           <div className="process-step">
             <span className="step-number">03</span>
             <h3>Realizacja</h3>
-            <p>Razem ruszamy w naturę. Ty odpoczywasz, my dbamy o resztę.</p>
+            <p>Razem ruszamy w naturę. Ty odpoczywasz, my dbamy o&nbsp;resztę.</p>
           </div>
         </div>
         <div className="process-cta">
-          <a href="#kontakt" className="btn-primary">Porozmawiaj</a>
+          <a href="#kontakt" className="btn-primary">Porozmawiaj ↗ ↗</a>
         </div>
       </section>
 
@@ -232,7 +235,7 @@ export default function App() {
             <img src={IMG3} alt="Misja Grupy Przyrodniczej" />
           </div>
           <div className="mission-content">
-            <span className="green-label">Zamieniamy screeny na leśne gęstwiny</span>
+            <span className="green-label">Od wytchnienia do świadomości</span>
             <h2>Misja</h2>
             <p>
               Łączymy otoczenie Twojej firmy z kojącą mocą ekosystemów.
@@ -243,7 +246,7 @@ export default function App() {
               Na wszechobecny greenwashing odpowiadamy realnymi działaniami,
               edukując o otaczających nas siedliskach. Głęboko wierzymy, że
               przystępna edukacja przyrodnicza bez ideologii i doznawanie piękna
-              natury przysłużą się jej, prowadząc do podniesienia poziomu jej ochrony.
+              natury przysłużą się jej, prowadząc do podniesienia poziomu jej&nbsp;ochrony.
             </p>
             <a href="#kontakt" className="btn-primary">Zacznijmy od rozmowy</a>
           </div>
@@ -254,7 +257,7 @@ export default function App() {
       <section ref={refContact} className="contact-section reveal" id="kontakt">
         <h2>Zacznijmy od rozmowy</h2>
         <p>Napisz do nas lub zadzwoń. Chętnie dowiemy się, jak możemy połączyć Twój biznes z naturą, z korzyścią dla wszystkich.</p>
-        <a href="mailto:kontakt@grupaprzyrodnicza.pl" className="btn-primary">Porozmawiaj</a>
+        <a href="mailto:kontakt@grupaprzyrodnicza.pl" className="btn-primary">Porozmawiaj ↗</a>
       </section>
 
       {/* ── FOOTER ── */}
