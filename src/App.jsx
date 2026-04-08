@@ -231,9 +231,6 @@ export default function App() {
       {/* ── MISJA ── */}
       <section ref={refMission} className="mission-section reveal" id="misja">
         <div className="mission-inner">
-          <div className="mission-image">
-            <img src={IMG3} alt="Misja Grupy Przyrodniczej" />
-          </div>
           <div className="mission-content">
             <span className="green-label">Od wytchnienia do świadomości</span>
             <h2>Misja</h2>
@@ -248,7 +245,9 @@ export default function App() {
               przystępna edukacja przyrodnicza bez ideologii i doznawanie piękna
               natury przysłużą się jej, prowadząc do podniesienia poziomu jej&nbsp;ochrony.
             </p>
-            <a href="#kontakt" className="btn-primary">Zacznijmy od rozmowy</a>
+          </div>
+          <div className="mission-image">
+            <img src={IMG3} alt="Misja Grupy Przyrodniczej" />
           </div>
         </div>
       </section>
