@@ -251,7 +251,7 @@ export default function App() {
             <img src={IMG3} alt="Misja Grupy Przyrodniczej" />
           </div>
         </div>
-        <div className="contact-path">
+        <div className="mission-path">
           <PathSVG1 />
         </div>
       </section>
