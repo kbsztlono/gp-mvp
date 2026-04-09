@@ -213,6 +213,7 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+  scroll-margin-top: 80px;
 }
 
 .what-we-do-content h2 {
