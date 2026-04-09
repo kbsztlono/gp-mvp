@@ -79,7 +79,7 @@ export default function App() {
           <a href="#kontakt" className="btn-primary">Porozmawiaj <span className="btn-arrow">↗</span></a>
         </div>
         <div className="hero-text">
-          <h1 className="hero-title">Połącz swój biznes z naturą</h1>
+          <h1 className="hero-title">Połącz swój biznes z&nbsp;naturą</h1>
           <h2 className="hero-subtitle">bez greenwashingu</h2>
         </div>
         <div className="hero-path">
@@ -94,8 +94,8 @@ export default function App() {
           <p>
             Ta strona powstała z szacunkiem dla Twojej uwagi. Nie chcemy jej nadużywać.
             Znajdziesz tu tylko konkretne informacje, które chętnie pogłębimy podczas
-            bezpośredniej rozmowy. Zapoznaj się, nawiąż kontakt, a następnie wyłącz
-            ekran i… chodź do lasu!
+            bezpośredniej rozmowy. Zapoznaj się, nawiąż kontakt, a&nbsp;następnie wyłącz
+            ekran i… chodź do&nbsp;lasu!
           </p>
           <div className="pause-path">
             <PathSVG2 />
@@ -114,7 +114,7 @@ export default function App() {
               edukacyjne w całej Polsce. Organizujemy lokalne wyprawy, rozbudzające
               ciekawość przyrodniczą, promujące lokalną przyrodę i wzmacniające
               poczucie zespołowości. Najlepsze pomysły rodzą się pod koronami drzew,
-              a najsilniejsze zespoły buduje się z dala od zasięgu Wi-Fi.
+              a&nbsp;najsilniejsze zespoły buduje się z&nbsp;dala od zasięgu Wi-Fi.
             </p>
             <p className="service-item">
               Dostarczamy gotowe rozwiązania dla działów <strong>HR, ESG i Wellbeing</strong>,
@@ -137,9 +137,9 @@ export default function App() {
             <p>
               Natura jest dla każdego — od zarządu po pracowników fizycznych,
               od małych organizacji po duże korporacje. Poziom zaawansowania
-              i charakter każdego wydarzenia dostosowujemy zarówno do potrzeb
-              i możliwości Twojej organizacji, jak również do kondycji, wieku,
-              wiedzy i wrażliwości osób uczestniczących.
+              i&nbsp;charakter każdego wydarzenia dostosowujemy zarówno do potrzeb
+              i&nbsp;możliwości Twojej organizacji, jak również do kondycji, wieku,
+              wiedzy i&nbsp;wrażliwości osób uczestniczących.
             </p>
           </div>
           <div className="custom-block">
@@ -149,8 +149,8 @@ export default function App() {
               Organizacja ciekawych wydarzeń jest dużym wyzwaniem — zdejmujemy
               ten ciężar z Twoich barków. Zamiast koordynować wielu lokalnych
               dostawców, współpracujesz tylko z nami. My zarządzamy projektem
-              centralnie, zapewniając spójność i najwyższą jakość w każdym
-              zakątku Polski.
+              centralnie, zapewniając spójność i&nbsp;najwyższą jakość w każdym
+              zakątku&nbsp;Polski.
             </p>
           </div>
         </div>
@@ -159,11 +159,11 @@ export default function App() {
       {/* ── MIERZALNE EFEKTY ── */}
       <section ref={refResults} className="results-section reveal">
         <span className="green-label">Mierzalne efekty działań</span>
-        <h2>Wsparcie raportowania i komunikacji</h2>
+        <h2>Wsparcie raportowania i&nbsp;komunikacji</h2>
         <div className="results-list">
           <div className="result-item">
             <h3>Raporty</h3>
-            <p>Raporty z działań w obszarze społecznym i środowiskowym</p>
+            <p>Raporty z działań w obszarze społecznym i&nbsp;środowiskowym</p>
           </div>
           <div className="result-item">
             <h3>Dokumentacja</h3>
@@ -171,7 +171,7 @@ export default function App() {
           </div>
           <div className="result-item">
             <h3>Webinary</h3>
-            <p>Webinary edukacyjne i wsparcie komunikacji wewnętrznej</p>
+            <p>Webinary edukacyjne i&nbsp;wsparcie komunikacji wewnętrznej</p>
           </div>
         </div>
         <div className="results-image">
@@ -185,11 +185,11 @@ export default function App() {
         <h2 className="values-heading">Value Propositions</h2>
         <div className="values-grid">
           <div className="value-card">
-            <h3>Employer Branding i Wellbeing</h3>
-            <p>Dostarczamy narzędzia do budowy zdrowej kultury organizacji opartej na odporności psychicznej i autentycznym dobrostanie. Wspieramy pracowników w nauce samoregulacji, wykorzystując naturę jako najskuteczniejsze narzędzie do walki ze stresem i wypaleniem.</p>
+            <h3>Employer Branding i&nbsp;Wellbeing</h3>
+            <p>Dostarczamy narzędzia do budowy zdrowej kultury organizacji opartej na odporności psychicznej i&nbsp;autentycznym dobrostanie. Wspieramy pracowników w nauce samoregulacji, wykorzystując naturę jako najskuteczniejsze narzędzie do walki ze stresem i&nbsp;wypaleniem.</p>
           </div>
           <div className="value-card">
-            <h3>Integracja i Teambuilding</h3>
+            <h3>Integracja i&nbsp;Teambuilding</h3>
             <p>Inspirujemy się naturą, by budować trwale zintegrowane zespoły. Przenosimy mechanizmy współpracy znane z ekosystemów na grunt Twojej organizacji, łącząc edukację przyrodniczą z warsztatami terenowymi.</p>
           </div>
           <div className="value-card">
@@ -198,7 +198,7 @@ export default function App() {
           </div>
           <div className="value-card">
             <h3>Aktywizacja Klientów</h3>
-            <p>Oferujemy unikalne doświadczenia, które wyróżniają Twoją markę na tle konkurencji i budują głęboką lojalność. Zamiast tradycyjnych eventów, zapraszamy Twoich klientów do wspólnego odkrywania natury.</p>
+            <p>Oferujemy unikalne doświadczenia, które wyróżniają Twoją markę na tle konkurencji i&nbsp;budują głęboką lojalność. Zamiast tradycyjnych eventów, zapraszamy Twoich klientów do wspólnego odkrywania natury.</p>
           </div>
         </div>
       </section>
@@ -206,7 +206,7 @@ export default function App() {
       {/* ── PROCES ── */}
       <section ref={refProcess} className="process-section reveal">
         <h2 className="process-heading">To bardzo łatwe</h2>
-        <p className="process-subtitle">Wspieramy Cię organizacyjnie i komunikacyjnie na każdym etapie:</p>
+        <p className="process-subtitle">Wspieramy Cię organizacyjnie i&nbsp;komunikacyjnie na każdym etapie:</p>
         <div className="process-steps">
           <div className="process-step">
             <span className="step-number">01</span>
@@ -238,12 +238,12 @@ export default function App() {
             <p>
               Łączymy otoczenie Twojej firmy z kojącą mocą ekosystemów.
               W świecie pełnym bodźców dostarczamy narzędzi do samoregulacji
-              i wytchnienia, odkrywając piękno natury 30 minut od&nbsp;Twojego domu.
+              i&nbsp;wytchnienia, odkrywając piękno natury 30 minut od&nbsp;Twojego domu.
             </p>
             <p>
               Na wszechobecny greenwashing odpowiadamy realnymi działaniami,
               edukując o&nbsp;otaczających nas siedliskach. Głęboko wierzymy,
-              że&nbsp;przystępna edukacja przyrodnicza bez ideologii i doznawanie piękna
+              że&nbsp;przystępna edukacja przyrodnicza bez ideologii i&nbsp;doznawanie piękna
               natury przysłużą się jej, prowadząc do podniesienia poziomu jej&nbsp;ochrony.
             </p>
           </div>
