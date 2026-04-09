@@ -45,9 +45,9 @@ function Navbar() {
     <header className="navbar">
       <div className="navbar-pill">
         <nav className={`nav-links${open ? ' open' : ''}`}>
-          <a href="#misja" onClick={() => setOpen(false)}>Misja</a>
           <a href="#oferta" onClick={() => setOpen(false)}>Oferta</a>
           <a href="#wspolpraca" onClick={() => setOpen(false)}>Współpraca</a>
+          <a href="#misja" onClick={() => setOpen(false)}>Misja</a>
           <a href="#kontakt" onClick={() => setOpen(false)}>Kontakt</a>
         </nav>
         <button className="menu-toggle" onClick={() => setOpen(!open)} aria-label="Menu">
