@@ -44,6 +44,7 @@ function Navbar() {
   return (
     <header className="navbar">
       <div className="navbar-pill">
+        <span className="navbar-logo">Grupa Przyrodnicza</span>
         <nav className={`nav-links${open ? ' open' : ''}`}>
           <a href="#oferta" onClick={() => setOpen(false)}>Oferta</a>
           <a href="#wspolpraca" onClick={() => setOpen(false)}>Współpraca</a>
